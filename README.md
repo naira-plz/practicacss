@@ -1,23 +1,32 @@
-# GAMING NEWS 
 
-## Periódico digital de videojuegos
+# GAMING NEWS
 
-Gaming News es una página web dedicada a las noticias, novedades y actualidad del mundo de los videojuegos.
+## Descripción
+Gaming News es un periódico digital dedicado al mundo de los videojuegos, la tecnología y los esports.
 
-### Noticias principales
-- **Minecraft:** El universo de bloques que sigue conquistando jugadores.
-- **Fortnite:** Novedades, eventos y experiencias para sus jugadores.
-- **Roblox:** Creatividad y experiencias virtuales.
-- **Gaming:** La industria de los videojuegos sigue creciendo.
-- **Esports:** Las competiciones de videojuegos ganan protagonismo.
+## Temática
+- Minecraft
+- Fortnite
+- Roblox
+- Gaming
+- Esports
+- Innovación tecnológica
 
-### Tecnologías utilizadas
+## Tecnologías utilizadas
 - HTML5
 - CSS3
+- Bootstrap 5
+- Git
+- GitHub
 
-### Estructura del proyecto
-- `index.html`: estructura y contenido de la página web.
-- `styles.css`: diseño y estilos de la página.
-- `images/`: imágenes utilizadas en las noticias.
+## Estructura del proyecto
+- index.html: estructura y contenido de la página.
+- styles.css: estilos y diseño responsive.
+- images/: imágenes utilizadas en las noticias.
 
-2026 Gaming News. Todos los derechos reservados.
+## Autor
+Naira Pérez López
+
+## Año
+2026
+
