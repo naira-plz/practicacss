@@ -1,36 +1,71 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaming News</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <h1>GAMING NEWS</h1>
-    <p>Tu periódico digital de videojuegos</p>
+    <div id="cabecera">
+        <h1>GAMING NEWS</h1>
+        <p>Tu periódico digital de videojuegos</p>
+    </div>
 
-    <h2>Últimas noticias</h2>
+    <div id="menu">
+        <a class="enlace" href="#inicio">Inicio</a>
+        <a class="enlace" href="#noticias">Noticias</a>
+        <a class="enlace" href="#destacadas">Destacadas</a>
+    </div>
 
-    <!-- Elementos de bloque: h2 y p -->
-    <!-- Elementos en línea: strong y a -->
+    <div id="inicio">
 
-    <h3>Minecraft presenta nuevas novedades</h3>
-    <span>Tecnología</span>
-    <p>Minecraft prepara nuevas actualizaciones para mejorar la experiencia de los jugadores y añadir <strong>nuevas funciones</strong>.</p>
-    <a href="https://www.minecraft.net/">Leer más sobre Minecraft</a>
+        <div id="noticias">
+            <h2>Últimas noticias</h2>
 
-    <h3>Fortnite anuncia nuevas temporadas</h3>
-    <span>Entretenimiento</span>
-    <p>Fortnite continúa incorporando novedades y eventos especiales para mantener a su <strong>comunidad activa</strong>.</p>
-    <a href="https://www.fortnite.com/">Leer más sobre Fortnite</a>
+            <div class="noticia">
+                <span class="categoria">Tecnología</span>
+                <h3>Minecraft presenta nuevas novedades</h3>
+                <p>Minecraft prepara nuevas actualizaciones para mejorar la experiencia de los jugadores y añadir <strong>nuevas funciones</strong>.</p>
+                <a href="https://www.minecraft.net/">Leer más sobre Minecraft</a>
+            </div>
 
-    <h3>Roblox sigue creciendo</h3>
-    <span>Videojuegos</span>
-    <p>Roblox permite a sus usuarios crear experiencias y compartir sus propios <strong>mundos virtuales</strong>.</p>
-    <a href="https://www.roblox.com/">Leer más sobre Roblox</a>
+            <div class="noticia">
+                <span class="categoria">Entretenimiento</span>
+                <h3>Fortnite anuncia nuevas temporadas</h3>
+                <p>Fortnite continúa incorporando novedades y eventos especiales para mantener a su <strong>comunidad activa</strong>.</p>
+                <a href="https://www.fortnite.com/">Leer más sobre Fortnite</a>
+            </div>
+
+            <div class="noticia">
+                <span class="categoria">Videojuegos</span>
+                <h3>Roblox sigue creciendo</h3>
+                <p>Roblox permite a sus usuarios crear experiencias y compartir sus propios <strong>mundos virtuales</strong>.</p>
+                <a href="https://www.roblox.com/">Leer más sobre Roblox</a>
+            </div>
+
+        </div>
+
+        <div id="destacadas">
+            <h2>Noticias destacadas</h2>
+
+            <div class="noticia destacado">
+                <h3>El mundo gaming sigue evolucionando</h3>
+                <p>Los videojuegos continúan creciendo gracias a las nuevas tecnologías y a las comunidades de jugadores.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="pie">
+        <p>2026 Gaming News - Todos los derechos reservados.</p>
+    </div>
 
 </body>
 </html>
+
