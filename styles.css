@@ -1,0 +1,22 @@
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.noticia {
+    padding: 15px;
+    margin: 10px;
+}
+
+#noticias {
+    max-width: 1000px;
+}
+
+.noticia h3 {
+    font-size: 22px;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
