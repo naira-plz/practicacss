@@ -5,8 +5,7 @@ p {
 }
 
 .noticia {
-    padding: 15px;
-    margin: 10px;
+    width: 90%;
 }
 
 #noticias {
@@ -24,6 +23,7 @@ h1, h2 {
 
 body {
     background-color: #f2f4f8;
+    margin: 10px;
 }
 
 #cabecera {
@@ -38,6 +38,11 @@ body {
     padding: 15px;
 }
 
+#menu a {
+    color: white;
+    margin-right: 15px;
+}
+
 h2 {
     color: #1e3a8a;
 }
@@ -47,9 +52,32 @@ h3 {
 }
 
 a {
-    color: red; 
+    color: red;
 }
 
 .noticia {
     background-color: white;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.noticia-uno {
+    padding: 15px;
+    border: 3px solid blue;
+    margin: 15px;
+}
+
+.noticia-dos {
+    padding: 25px;
+    border: 5px solid purple;
+    margin: 25px;
+}
+
+.noticia-tres {
+    padding: 35px;
+    border: 4px dashed darkgreen;
+    margin: 35px;
 }
